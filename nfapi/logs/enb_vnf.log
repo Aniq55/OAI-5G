@@ -1,0 +1,822 @@
+[LOADER] library libNB_IoT.so is not loaded: libNB_IoT.so: cannot open shared object file: No such file or directory
+[CONFIG] get parameters from libconfig ../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band7.tm1.50PRB.nfapi.conf , debug flags: 0x00000000
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+# /dev/cpu_dma_latency set to 0us
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 42/42 parameters successfully set, (36 to default value)
+[LIBCONFIG] log_config: 42/42 parameters successfully set, (42 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+log init done
+Reading in command-line options
+[LIBCONFIG] (root): 22/22 parameters successfully set, (19 to default value)
+[LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
+Getting ENBSParams
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] list L1s not found in config file ../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band7.tm1.50PRB.nfapi.conf 
+[LIBCONFIG] list RUs not found in config file ../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band7.tm1.50PRB.nfapi.conf 
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+Configuration: nb_rrc_inst 1, nb_L1_inst 0, nb_ru 0
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.NB_IoT: 2/2 parameters successfully set, (1 to default value)
+               nb_nbiot_rrc_inst 0, nb_nbiot_L1_inst 0, nb_nbiot_macrlc_inst 0
+[LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+configuring for RAU/RRU
+CPU Freq is 2.194980 
+ITTI init, useMME: 1
+[0m[TMR]   Starting itti queue: TASK_UNKNOWN as task 0
+[0m[0m[TMR]   Starting itti queue: TASK_TIMER as task 1
+[0m[0m[TMR]   Starting itti queue: TASK_L2L1 as task 2
+[0m[0m[TMR]   Starting itti queue: TASK_BM as task 3
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_ENB as task 4
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_ENB as task 5
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_ENB as task 6
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_ENB as task 8
+[0m[0m[TMR]   Starting itti queue: TASK_DATA_FORWARDING as task 9
+[0m[0m[TMR]   Starting itti queue: TASK_END_MARKER as task 10
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB as task 11
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_ENB as task 12
+[0m[0m[TMR]   Starting itti queue: TASK_S1AP as task 13
+[0m[0m[TMR]   Starting itti queue: TASK_X2AP as task 14
+[0m[0m[TMR]   Starting itti queue: TASK_SCTP as task 15
+[0m[0m[TMR]   Starting itti queue: TASK_ENB_APP as task 16
+[0m[0m[TMR]   Starting itti queue: TASK_FLEXRAN_AGENT as task 17
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_UE as task 18
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_UE as task 19
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_UE as task 20
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_UE as task 21
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_UE as task 22
+[0m[0m[TMR]   Starting itti queue: TASK_NAS_UE as task 23
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_UE as task 24
+[0m[0m[TMR]   Starting itti queue: TASK_MSC as task 25
+[0m[0m[TMR]   Starting itti queue: TASK_GTPV1_U as task 26
+[0m[0m[TMR]   Starting itti queue: TASK_UDP as task 27
+[0m[0m[TMR]   Starting itti queue: TASK_CU_F1 as task 28
+[0m[0m[TMR]   Starting itti queue: TASK_DU_F1 as task 29
+[0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[0m[OPT]   OPT disabled
+[0mreported resolution = 1 ns
+[0m[HW]   Version: Branch: HEAD Abrev. Hash: a40f9d9d2 Date: Fri Nov 29 13:58:31 2019 +0100
+[0mRuntime table
+[0m[PHY]   RC.eNB = 0x5621cf042d30
+[0m[LIBCONFIG] list L1s not found in config file ../targets/PROJECTS/GENERIC-LTE-EPC/CONF/rcc.band7.tm1.50PRB.nfapi.conf 
+[0m[PHY]   No L1s configuration found[0m[0m[PHY]   RC.eNB[0] = 0x5621cf042e00
+[0m[0m[PHY]   RC.eNB[0][0] = 0x7f7955322010
+[0m[0m[PHY]   read_config_and_init() RC.nb_L1_inst: 0
+[0m[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (11 to default value)
+[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (11 to default value)
+[0m[MAC]   [MAIN] Init function start:nb_macrlc_inst=1
+[0m[0m[PDCP]   PDCP layer has been initialized
+[0mConfiguring local RRC for MACRLC
+[0m[ENB_APP]   **************** vnf_port:50001
+[0m[0m[ENB_APP]   nfapi running mode: VNF
+[0m3750.552173: 0x04: 1482270144: [VNF] configure_nfapi_vnf() vnf.p7_vnfs[0].config:0x5621cf045160 VNF ADDRESS:127.0.0.2:50001
+3750.552190: 0x04: 1482270144: [VNF] Creating VNF NFAPI start thread configure_nfapi_vnf
+3750.552247: 0x04: 1482270144: [VNF] Created VNF NFAPI start thread configure_nfapi_vnf
+[0m[ENB_APP]   **************** RETURNED FROM configure_nfapi_vnf() vnf_port:50001
+[0m[0m[ENB_APP]   sched mode = default 0 [default]
+[0m[0m[MAC]   read_config_and_init() RC.nb_macrlc_inst: 1
+[0m3750.552262: 0x04: 1418671872: [VNF] VNF NFAPI thread - nfapi_vnf_start()vnf_start_thread
+[0m[NFAPI_VNF]   VNF Setting the SCTP_INITMSG
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 18/18 parameters successfully set, (9 to default value)
+[0m[RRC]   Instance 0: Southbound Transport local_mac
+[0m[0m[RRC]   Setting node_type to ngran_eNB
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   num component carriers 1 
+[0m[0m[RRC]   enb_config::RCconfig_RRC() parameter number: 0, total number of parameters: 78, ccspath: eNBs.[0].component_carriers.[0] 
+ 
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 78/78 parameters successfully set, (17 to default value)
+phich.resource 0 (ONESIXTH), phich.duration 0 (NORMAL)
+No eMBMS configuration, skipping it
+[LIBCONFIG] eNBs.[0].component_carriers.[0].emtc_parameters: 87/87 parameters successfully set, (87 to default value)
+No eMTC configuration, skipping it
+[LIBCONFIG] eNBs.[0].component_carriers.[0].SLparameters: 39/39 parameters successfully set, (39 to default value)
+No SL configuration skipping it
+[LIBCONFIG] eNBs.[0].srb1_parameters: 6/6 parameters successfully set, (0 to default value)
+[0m[RRC]   Node type 0 
+ [0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] NETWORK_CONTROLLER: 6/6 parameters successfully set, (6 to default value)
+[0m[FLEXRAN_AGENT]   FlexRAN Agent for eNB 0 is DISABLED
+[0m[0m[PDCP]   PDCP layer has been initialized
+[0m[0m[PDCP]   pdcp init,usegtp 
+[0m[0m[ENB_APP]   Creating ENB_APP eNB Task
+[0m[0m[TMR]   Created Posix thread TASK_ENB_APP
+[0m[0m[RRC]   Creating RRC eNB Task
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 18/18 parameters successfully set, (9 to default value)
+[0m[TMR]   Created Posix thread TASK_RRC_ENB
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   Entering main loop of RRC message task
+[0m[0m[TMR]   Created Posix thread TASK_SCTP
+[0m[0m[SCTP]   Starting SCTP layer
+[0m[0m[TMR]   Created Posix thread TASK_S1AP
+[0m[0m[S1AP]   Starting S1AP layer
+[0m[0m[TMR]   Created Posix thread TASK_UDP
+[0m[0m[UDP]   Initializing UDP task interface
+[0m[0m[UDP]   Initializing UDP task interface: DONE
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 78/78 parameters successfully set, (17 to default value)
+[LIBCONFIG] eNBs.[0].mme_ip_address.[0]: 5/5 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[0m[TMR]   Created Posix thread TASK_GTPV1_U
+[0m[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 3/3 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Initializing GTPU stack 0x5621ce152cb8
+[0m[0m[GTPV1U]   Configuring GTPu address : 10.33.42.138  -> 8a2a210a
+[0m[0m[ENB_APP]   default drx 2
+[0m[0m[ENB_APP]   [eNB 0] eNB_app_register via S1AP for instance 0
+[0m[0m[GTPV1U]   Tx UDP_INIT IP addr 10.33.42.138 (868)
+[0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (0 to default value)
+[0m[X2AP]   X2AP is disabled.
+[0m[0m[UDP]   Initializing UDP for local address 10.33.42.138 with port 2152
+[0m[0m[S1AP]   Registered new eNB[0] and macro eNB id 3584
+[0m[0m[S1AP]   [eNB 0] check the mme registration state
+[0m[0m[UDP]   Inserting new descriptor for task 26, sd 67
+[0m[0m[UDP]   Initializing UDP for local address 10.33.42.138 with port 2152: DONE
+[0m[0m[SCTP]   sctp_bindx SCTP_BINDX_ADD_ADDR socket bound to : 10.33.42.138
+[0m[0m[SCTP]   Converted ipv4 address 10.33.42.16 to network type
+[0m[0m[SCTP]   connectx assoc_id  51 in progress..., used 1 addresses
+[0m[0m[SCTP]   Inserted new descriptor for sd 68 in list, nb elements 1, assoc_id 51
+[0m[0m[RRC]   [eNB 0] Received RRC_CONFIGURATION_REQ : 0x5621cf07014c
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Init...
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Checking release 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Rel14 RRC detected, MBMS flag 0
+[0m[0m[RRC]   [eNB 0] Node type 0 
+ [0m[0m[RRC]   configuration->schedulingInfoSIB1_BR_r13[CC_id] 0
+[0m[0m[RRC]   Configuring MIB (N_RB_DL 50,phich_Resource 0,phich_Duration 0)
+[0m[0m[RRC]   [MIB] systemBandwidth 3, phich_duration 0, phich_resource 0, sfn 0
+[0m[0m[RRC]   [MIB] schedulingInfoSIB1 0
+[0m[0m[RRC]   [eNB 0] Configuration SIB2/3, eMBMS = 0
+[0m[0m[RRC]   do_SIB23, size 38 
+ [0m[0m[MAC]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 50,Nid_cell 0,p 1,DL freq 2685000000,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[MAC]   config_mib() NFAPI_CONFIG_REQUEST(num_tlv:16) DL_BW:50 UL_BW:50 Ncp 0,p_eNB 1,earfcn 3400,band 7,phich_resource 0 phich_duration 0 phich_power_offset 6000 PSS 6000 SSS 6000 PCI 0 PBCH repetition 0
+[0m[0m[MAC]   [CONFIG]SIB2/3 Contents (partial)
+[0m[0m[MAC]   [CONFIG]pusch_config_common.n_SB = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.hoppingMode = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.enable64QAM = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupHoppingEnabled = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupAssignmentPUSCH = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.sequenceHoppingEnabled = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.cyclicShift  = 1
+[0m[0m[SCTP]   Found data for descriptor 68
+[0m[0m[SCTP]   Received notification for sd 68, type 32769
+[0m[0m[SCTP]   Client association changed: 0
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Peer addresses:
+[0m[0m[SCTP]       - [10.33.42.16]
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   SCTP Status:
+[0m[0m[SCTP]   assoc id .....: 51
+[0m[0m[SCTP]   state ........: 4
+[0m[0m[SCTP]   instrms ......: 2
+[0m[0m[SCTP]   outstrms .....: 2
+[0m[0m[SCTP]   fragmentation : 1452
+[0m[0m[SCTP]   pending data .: 0
+[0m[0m[SCTP]   unack data ...: 0
+[0m[0m[SCTP]   rwnd .........: 106496
+[0m[0m[SCTP]   peer info     :
+[0m[0m[SCTP]       state ....: 2
+[0m[0m[SCTP]       cwnd .....: 4380
+[0m[0m[SCTP]       srtt .....: 0
+[0m[0m[SCTP]       rto ......: 3000
+[0m[0m[SCTP]       mtu ......: 1500
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Comm up notified for sd 68, assigned assoc_id 51
+[0m[0m[SCTP]   Found data for descriptor 68
+[0m[0m[SCTP]   Received notification for sd 68, type 32776
+[0m[0m[S1AP]   3584 -> 00e000
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 0 for assoc_id 51
+[0m[0m[SCTP]   Found data for descriptor 68
+[0m[0m[SCTP]   Received notification for sd 68, type 32777
+[0m[0m[SCTP]   Found data for descriptor 68
+[0m[0m[SCTP]   [51][68] Msg of length 27 received from port 36412, on stream 0, PPID 18
+[0m[0m[S1AP]   servedGUMMEIs.list.count 1
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[1;31m[S1AP]   S1AP_FIND_PROTOCOLIE_BY_ID: /home/spclab/nfapi_vnf/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c 374: ie is NULL
+[0m[0m[ENB_APP]   [eNB 0] Received S1AP_REGISTER_ENB_CNF: associated MME 1
+[0mWaiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+[0m[ENB_APP]   NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+[0mwaiting for NFAPI PNF connection and population of global structure (main?)
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+Waiting for PHY_config_req
+[VNF] pnf connection indication idx:0
+[VNF] RC.eNB[0][0]. Mod_id:0 CC_id:0 nb_CC[0]:1 abstraction_flag:0 single_thread_flag:0 if_inst:(nil)
+RC.eNB[0][0]->if_inst->PHY_config_req is not installed - install it
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+Waiting for PHY_config_req
+[0m[PHY]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 50, N_RB_UL 50, Nid_cell 0,eNB_tx_antenna_ports 1,Ncp 0,DL freq 3400,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[PHY]   Initializing frame parms for N_RB_DL 50, Ncp 0, osf 1
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 50, ofdm_symbol_size 1024
+[0m[LIBCONFIG] loader.coding: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library libcoding.so successfully loaded
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+oai_create_enb() Waiting for eNB to become configured (by RRC/PHY) - need to wait otherwise NFAPI messages won't contain correct values
+[0m[PHY]   prach_config_common.rootSequenceIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_ConfigIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.highSpeedFlag = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.zeroCorrelationZoneConfig = 1
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_FreqOffset = 2
+[0m[0m[PHY]   pusch_config_common.n_SB = 1
+[0m[0m[PHY]   pusch_config_common.hoppingMode = 0
+[0m[0m[PHY]   pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[PHY]   pusch_config_common.enable64QAM = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupHoppingEnabled = 1
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.cyclicShift = 2
+[0m[0m[PHY]   eNB 0/0 configured
+[0m[0m[RRC]   [eNB] handover active state is 0 
+[0m[0m[RRC]   [eNB] eMBMS active state is 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] ENB:OPENAIR RRC IN....
+[0moai_create_enb() eNB is now configured
+[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : config->pnf_list:0x7f7938000b20
+[0m[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : curr->p5_idx:0 p5_idx:0
+[0m[VNF] pnf param response idx:0 error:0
+[VNF] (PHY:0) phy_config_idx:0
+[VNF] (PHY:0) (RF0) 0
+[VNF] (PHY:0) (RF1) 0
+[VNF] (RF:0) rf_config_idx:0
+[VNF] (RF:1) rf_config_idx:0
+DJP:Hard coded num phy rf to 2
+[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : config->pnf_list:0x7f7938000b20
+[0m[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : curr->p5_idx:0 p5_idx:0
+[0m[VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:12]]
+[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : config->pnf_list:0x7f7938000b20
+[0m[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : curr->p5_idx:0 p5_idx:0
+[0m[VNF] pnf start response idx:0 config:0x5621cf063fd0 user_data:0x5621cdf2ef00 p7_vnf[config:0x5621cf045160 thread_started:0]
+[VNF] Sending NFAPI_PARAM_REQUEST phy_id:1
+[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : config->pnf_list:0x7f7938000b20
+[0m[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : curr->p5_idx:0 p5_idx:0
+[0m[VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
+[VNF] 0.1 pnf p7 127.0.0.1:32123 timing 32 10 0 10
+[VNF] Send NFAPI_CONFIG_REQUEST
+[VNF] DJP local_port:50001
+[VNF] DJP local_addr:127.0.0.2
+[VNF] Timing window:32
+[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : config->pnf_list:0x7f7938000b20
+[0m[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : curr->p5_idx:0 p5_idx:0
+[0m[VNF] Sent NFAPI_CONFIG_REQ num_tlv:43
+vnf_p7_start_thread()
+[VNF] Received NFAPI_CONFIG_RESP idx:0 phy_id:1
+[VNF] Calling oai_enb_init()
+oai_enb_init() About to call init_eNB_afterRU()
+[0m[PHY]   init_eNB_afterRU() RC.nb_inst:1
+[0m[0m[PHY]   RC.nb_CC[inst]:1
+[0m[0m[PHY]   RC.nb_CC[inst:0][CC_id:0]:0x7f7955322010
+[0m[0m[PHY]   [eNB 0] phy_init_lte_eNB() About to wait for eNB to be configured[0m[0m[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 50, PHICH Resource 1, PHICH Duration 0 nb_antennas_tx:0 nb_antennas_rx:0 nb_antenna_ports_eNB:1 PRACH[rootSequenceIndex:0 prach_Config_enabled:1 configIndex:0 highSpeed:0 zeroCorrelationZoneConfig:1 freqOffset:2]
+[0m[0m[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 50, PHICH Resource 1, PHICH Duration 0
+[0mpcfich_reg : 0,25,50,75
+[0m[PHY]   Mapping RX ports from 0 RUs to eNB 0
+[0m[0m[PHY]   Overwriting eNB->prach_vars.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   eNB->num_RU:0
+[0m[0m[PHY]   init_eNB_afterRU() ************* DJP ***** eNB->frame_parms.nb_antennas_rx:0 - GOING TO HARD CODE TO 1[0m[0m[PHY]   init_eNB_afterRU() ************* DJP ***** eNB->frame_parms.nb_antennas_tx:0 - GOING TO HARD CODE TO 1[0m[0m[PHY]   inst 0, CC_id 0 : nb_antennas_rx 1
+[0m[0m[PHY]   Initialise transport
+[0m[0m[PHY]   init_eNB_proc(inst:0) RC.nb_CC[inst]:1 
+[0m[0m[PHY]   Initializing eNB processes instance:0 CC_id 0 
+[0m[0m[PHY]   Creating te_thread 0
+[0m[0m[PHY]   Creating te_thread 1
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 3, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 CPU_8 CPU_9 CPU_10 CPU_11 CPU_12 CPU_13 CPU_14 CPU_15 CPU_16 CPU_17 CPU_18 CPU_19 
+[0m[0m[PHY]   Creating te_thread 2
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 CPU_8 CPU_9 CPU_10 CPU_11 CPU_12 CPU_13 CPU_14 CPU_15 CPU_16 CPU_17 CPU_18 CPU_19 
+[0m[0m[PHY]   thread te created id=11619
+[0m[0m[PHY]   thread te created id=11620
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 CPU_8 CPU_9 CPU_10 CPU_11 CPU_12 CPU_13 CPU_14 CPU_15 CPU_16 CPU_17 CPU_18 CPU_19 
+[0m[0m[PHY]   eNB->single_thread_flag:0
+[0m[0m[HW]   [SCHED][eNB] td_thread started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 CPU_8 CPU_9 CPU_10 CPU_11 CPU_12 CPU_13 CPU_14 CPU_15 CPU_16 CPU_17 CPU_18 CPU_19 
+[0m[0m[PHY]   thread te created id=11621
+[0m[0m[PHY]   thread td created id=11622
+[0m[0m[HW]   [SCHED][eNB] RXn_TXnp4_0
+ started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 CPU_8 CPU_9 CPU_10 CPU_11 CPU_12 CPU_13 CPU_14 CPU_15 CPU_16 CPU_17 CPU_18 CPU_19 
+[0m[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : config->pnf_list:0x7f7938000b20
+[0m[0m[1;31m[NFAPI_VNF]   nfapi_vnf_pnf_list_find : curr->p5_idx:0 p5_idx:0
+[0m[VNF] Send NFAPI_START_REQUEST idx:0 phy_id:1
+[0m[HW]   [SCHED][eNB] RXn_TXnp4_1
+ started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 CPU_4 CPU_5 CPU_6 CPU_7 CPU_8 CPU_9 CPU_10 CPU_11 CPU_12 CPU_13 CPU_14 CPU_15 CPU_16 CPU_17 CPU_18 CPU_19 
+[0m[0m[PHY]   thread rxtx created id=11623
+[0m[0m[PHY]   thread rxtx created id=11624
+[0m[0m[NFAPI_VNF]   reallocing rx buffer 72
+[0m[VNF] RACH_IND eNB:0x7f7955322010 sfn_sf:2001 number_of_preambles:1
+preamble[0]: rnti:02 preamble:2 timing_advance:12
+[VNF] RACH_IND eNB:0x7f7955322010 sfn_sf:2021 number_of_preambles:1
+preamble[0]: rnti:02 preamble:0 timing_advance:144
+[VNF] RACH_IND eNB:0x7f7955322010 sfn_sf:2041 number_of_preambles:1
+preamble[0]: rnti:02 preamble:3 timing_advance:144
+[VNF] RACH_IND eNB:0x7f7955322010 sfn_sf:2061 number_of_preambles:1
+preamble[0]: rnti:02 preamble:5 timing_advance:36
+[VNF] RACH_IND eNB:0x7f7955322010 sfn_sf:2081 number_of_preambles:1
+preamble[0]: rnti:02 preamble:9 timing_advance:12
+[VNF] RACH_IND eNB:0x7f7955322010 sfn_sf:2101 number_of_preambles:1
+[0m[1;31m[MAC]   phy_rach_indication : num of rach reach max 
+[0m[VNF] RACH_IND eNB:0x7f7955322010 sfn_sf:2121 number_of_preambles:1
+[VNF] Received NFAPI_START_RESP idx:0 phy_id:1
+[0m[93m[NFAPI_VNF]   sctp_recvmsg: unhandled mode with flags 0x0
+[0m[0m[93m[NFAPI_VNF]   Disconnected socket
+[0m[VNF] pnf disconnection indication idx:0
+Linux signal Interrupt...
+/home/spclab/nfapi_vnf/openairinterface5g/targets/RT/USER/lte-softmodem.c:253 signal_handler() Exiting OAI softmodem: softmodem starting exit procedure
+
